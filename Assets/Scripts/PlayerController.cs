@@ -71,14 +71,16 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D rb;
     Animator animator;
-
+    PlayerConversant playerConversant;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        playerConversant = GetComponent<PlayerConversant>();
         jumpsLeft = jumpsAllowed;
         wallHopDirection.Normalize();
         wallJumpDirection.Normalize();
+
     }
 
     private void Update()
@@ -119,6 +121,7 @@ public class PlayerController : MonoBehaviour
     void CheckSurroundings()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        Debug.Log(isGrounded);
 
         isTouchingWall = Physics2D.Raycast(wallCheck.position, transform.right, wallCheckDistance, whatIsGround);
 
@@ -132,7 +135,7 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (isTouchingWall)
+        if (isTouchingWall && masterWallJump)
         {
             checkJumpMultiplier = false;
             canWallJump = true;
@@ -171,16 +174,16 @@ public class PlayerController : MonoBehaviour
     }
 
 
-
     void CheckInput()
     {
         //TODO change to new input system
         movementInputDirection = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !isInDialogue)
         {
             if (isGrounded || (jumpsLeft > 0 && !isTouchingWall))
             {
+                Debug.Log("checkinput normal jump");
                 Jump();
             }
             else
@@ -189,7 +192,7 @@ public class PlayerController : MonoBehaviour
                 isAttemptingJump = true;
             }
         }
-        if (Input.GetButtonDown("Horizontal") && isTouchingWall)
+        if (Input.GetButtonDown("Horizontal") && isTouchingWall && !isInDialogue)
         {
             if (!isGrounded && movementInputDirection != facingDirection)
             {
@@ -216,15 +219,17 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * variableJumpHeightMultiplier);
         }
 
-        if (Input.GetButtonDown("Dash"))
+        if (Input.GetButtonDown("Dash") && !isInDialogue)
         {
-
             if (Time.time >= (lastDash + dashCooldown) && masterDash)
             {
                 AttemptToDash();
             }
         }
-
+        if (Input.GetButtonDown("Fire2") && playerConversant.GetConversant() != null)
+        {
+            playerConversant.StartDialogue();
+        }
     }
 
 
@@ -279,10 +284,12 @@ public class PlayerController : MonoBehaviour
             //walljump
             if (!isGrounded && isTouchingWall && movementInputDirection != 0 && movementInputDirection != facingDirection && masterWallJump)
             {
+                Debug.Log("wall jump???!!!!");
                 WallJump();
             }
             else if (isGrounded)
             {
+                Debug.Log("check jump normal jump");
                 Jump();
             }
         }
@@ -313,7 +320,6 @@ public class PlayerController : MonoBehaviour
     {
         if (canJump)
         {
-
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             jumpsLeft--;
             jumpTimer = 0;
@@ -324,7 +330,7 @@ public class PlayerController : MonoBehaviour
 
     void WallJump()
     {
-        if (canWallJump)
+        if (canWallJump && masterWallJump)
         {
             rb.velocity = new Vector2(rb.velocity.x, 0.0f);
             isWallSliding = false;

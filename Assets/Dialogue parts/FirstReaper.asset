@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68af8466fa34e304c9afe2ffa6ced5fb, type: 3}
+  m_Name: FirstReaper
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1505835116167934815}
+  - {fileID: 7132102425985997309}
+  - {fileID: 7233504626741195824}
+  - {fileID: 1932682235346065086}
+  - {fileID: 3669511897353992061}
+--- !u!114 &1505835116167934815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 3a499a52-7560-4e83-b41c-56b626b51421
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Looks like i lost a soul, could you go pick it up for me?
+  children:
+  - c61c4cce-7f3a-4023-b067-50882b4b14f3
+  - c7e0b8ef-9e96-48b3-bb62-90de614e3b8f
+  rect:
+    serializedVersion: 2
+    x: 47
+    y: 237
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1932682235346065086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 362f3c1b-3d09-4b7b-9efa-f1800e39b88a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Well, you see, if i go back i need authorization. '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 619
+    y: 466
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3669511897353992061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 8ec059f2-c95e-43fd-bf12-459c5e1aa9a6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thank you! Just bring that soul back to me and i'll be sure to reward you
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 657
+    y: 139
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7132102425985997309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: c61c4cce-7f3a-4023-b067-50882b4b14f3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Why can't you go get it yourself?
+  children:
+  - 362f3c1b-3d09-4b7b-9efa-f1800e39b88a
+  rect:
+    serializedVersion: 2
+    x: 369
+    y: 356
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7233504626741195824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: c7e0b8ef-9e96-48b3-bb62-90de614e3b8f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Of course!
+  children:
+  - 8ec059f2-c95e-43fd-bf12-459c5e1aa9a6
+  rect:
+    serializedVersion: 2
+    x: 378
+    y: 124
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
