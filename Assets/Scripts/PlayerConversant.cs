@@ -16,7 +16,7 @@ public class PlayerConversant : MonoBehaviour
     public void StartDialogue()
     {
         if(currentConversant == null) { return; }
-        Debug.Log("started conversation with" + currentConversant.GetConversantName());
+        
         currentNode = currentDialogue.GetRootNode();
         TriggerEnterAction();
         onConversationUpdated();
@@ -83,9 +83,10 @@ public class PlayerConversant : MonoBehaviour
     private void TriggerAction(string action)
     {
         if (action == "") { return; }
+        Debug.Log("looking for dialogueTrigger");
         foreach (DialogueTrigger trigger in currentConversant.GetComponents<DialogueTrigger>())
         {
-
+            Debug.Log("found dialogueTrigger");
             trigger.Trigger(action);
         }
     }

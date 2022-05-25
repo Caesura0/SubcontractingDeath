@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    [SerializeField] int jumpsAllowed = 2;
+    //[SerializeField] int jumpsAllowed = 2;
     [SerializeField] float movementSpeed = 10f;
     [SerializeField] float jumpForce = 16f;
     [SerializeField] float groundCheckRadius = 0.3f;
@@ -33,8 +33,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] LayerMask whatIsGround;
 
-    [SerializeField] bool masterWallJump;
-    [SerializeField] bool masterDash;
+    //[SerializeField] bool masterWallJump;
+    //[SerializeField] bool masterDash;
     
 
 
@@ -72,12 +72,14 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Animator animator;
     PlayerConversant playerConversant;
+    PlayerData playerData;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         playerConversant = GetComponent<PlayerConversant>();
-        jumpsLeft = jumpsAllowed;
+        playerData = GameObject.FindGameObjectWithTag("PlayerData").GetComponent<PlayerData>();
+        jumpsLeft = playerData.jumpNumber;
         wallHopDirection.Normalize();
         wallJumpDirection.Normalize();
 
@@ -115,13 +117,10 @@ public class PlayerController : MonoBehaviour
 
 
 
-
-
-
     void CheckSurroundings()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-        Debug.Log(isGrounded);
+        
 
         isTouchingWall = Physics2D.Raycast(wallCheck.position, transform.right, wallCheckDistance, whatIsGround);
 
@@ -131,11 +130,11 @@ public class PlayerController : MonoBehaviour
     {
         if ((isGrounded && rb.velocity.y <= 0.01f))
         {
-            jumpsLeft = jumpsAllowed;
+            jumpsLeft = playerData.jumpNumber;
         }
 
 
-        if (isTouchingWall && masterWallJump)
+        if (isTouchingWall && playerData.wallJumpMaster)
         {
             checkJumpMultiplier = false;
             canWallJump = true;
@@ -183,7 +182,7 @@ public class PlayerController : MonoBehaviour
         {
             if (isGrounded || (jumpsLeft > 0 && !isTouchingWall))
             {
-                Debug.Log("checkinput normal jump");
+                
                 Jump();
             }
             else
@@ -221,7 +220,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Dash") && !isInDialogue)
         {
-            if (Time.time >= (lastDash + dashCooldown) && masterDash)
+            if (Time.time >= (lastDash + dashCooldown) && playerData.dashMaster)
             {
                 AttemptToDash();
             }
@@ -282,7 +281,7 @@ public class PlayerController : MonoBehaviour
         if (jumpTimer > 0)
         {
             //walljump
-            if (!isGrounded && isTouchingWall && movementInputDirection != 0 && movementInputDirection != facingDirection && masterWallJump)
+            if (!isGrounded && isTouchingWall && movementInputDirection != 0 && movementInputDirection != facingDirection && playerData.wallJumpMaster)
             {
                 Debug.Log("wall jump???!!!!");
                 WallJump();
@@ -330,11 +329,11 @@ public class PlayerController : MonoBehaviour
 
     void WallJump()
     {
-        if (canWallJump && masterWallJump)
+        if (canWallJump && playerData.wallJumpMaster)
         {
             rb.velocity = new Vector2(rb.velocity.x, 0.0f);
             isWallSliding = false;
-            jumpsLeft = jumpsAllowed;
+            jumpsLeft = playerData.jumpNumber;
             jumpsLeft--;
             Vector2 forceToAdd = new Vector2(wallJumpForce * wallJumpDirection.x * movementInputDirection, wallJumpForce * wallJumpDirection.y);
             rb.AddForce(forceToAdd, ForceMode2D.Impulse);

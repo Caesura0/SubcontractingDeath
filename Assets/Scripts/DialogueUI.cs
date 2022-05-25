@@ -44,7 +44,8 @@ using UnityEngine.UI;
             else
             {
                 AIText.text = playerConversant.GetText();
-                nextButton.gameObject.SetActive(playerConversant.HasNext());
+                nextButton.gameObject.SetActive(playerConversant.HasNext());           
+                quitButton.gameObject.SetActive(!playerConversant.HasNext());           
             }
 
         }

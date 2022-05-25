@@ -1,5 +1,82 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8459956569345455352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ddccabb1-c718-4059-a591-ae5a2b0f309c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thank you! No more polishing Scythes for me!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 347
+    y: 592
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: CompleteGhost1
+  condition:
+    and: []
+--- !u!114 &-5358084549473947581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: f0402245-44c0-4bd6-8ee2-228ad252a16c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Then maybe be better at your job....
+  children:
+  - 78d4a596-f694-49b4-8e7f-95d56ed984e0
+  rect:
+    serializedVersion: 2
+    x: 1100
+    y: 379
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3267612995319697343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 3a0394cd-19d7-45ea-a9c7-b18425806a81
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: In that case, I guess I can give you a hand.
+  children:
+  - e097a8bd-1171-49e5-bfd3-63ac20486f0e
+  rect:
+    serializedVersion: 2
+    x: 1717
+    y: 484
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,38 +90,17 @@ MonoBehaviour:
   m_Name: FirstReaper
   m_EditorClassIdentifier: 
   nodes:
-  - {fileID: 1505835116167934815}
   - {fileID: 7132102425985997309}
   - {fileID: 7233504626741195824}
   - {fileID: 1932682235346065086}
   - {fileID: 3669511897353992061}
---- !u!114 &1505835116167934815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
-  m_Name: 3a499a52-7560-4e83-b41c-56b626b51421
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 0
-  text: Looks like i lost a soul, could you go pick it up for me?
-  children:
-  - c61c4cce-7f3a-4023-b067-50882b4b14f3
-  - c7e0b8ef-9e96-48b3-bb62-90de614e3b8f
-  rect:
-    serializedVersion: 2
-    x: 47
-    y: 237
-    width: 250
-    height: 260
-  onEnterAction: 
-  onExitAction: 
-  condition:
-    and: []
+  - {fileID: 1985679222398768460}
+  - {fileID: 6293210084978803593}
+  - {fileID: -8459956569345455352}
+  - {fileID: -5358084549473947581}
+  - {fileID: 9199224060247042668}
+  - {fileID: -3267612995319697343}
+  - {fileID: 3821496932852445565}
 --- !u!114 &1932682235346065086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,14 +114,44 @@ MonoBehaviour:
   m_Name: 362f3c1b-3d09-4b7b-9efa-f1800e39b88a
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: 'Well, you see, if i go back i need authorization. '
-  children: []
+  text: Well, you see, if i go back i need authorization. That means they'll know
+    i messed up again. I can't spend another 100 years polishing scythes!
+  children:
+  - c7e0b8ef-9e96-48b3-bb62-90de614e3b8f
+  - f0402245-44c0-4bd6-8ee2-228ad252a16c
   rect:
     serializedVersion: 2
-    x: 619
-    y: 466
+    x: 938
+    y: 618
     width: 250
-    height: 220
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1985679222398768460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 1dd961d8-e29d-4592-a892-d84cdd7be752
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hello!
+  children:
+  - 778f204d-7fdd-4b20-b813-a9770d868e60
+  - ddccabb1-c718-4059-a591-ae5a2b0f309c
+  rect:
+    serializedVersion: 2
+    x: 50
+    y: 338
+    width: 250
+    height: 260
   onEnterAction: 
   onExitAction: 
   condition:
@@ -83,14 +169,66 @@ MonoBehaviour:
   m_Name: 8ec059f2-c95e-43fd-bf12-459c5e1aa9a6
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: Thank you! Just bring that soul back to me and i'll be sure to reward you
+  text: Thank you! Just bring that soul back to me and I'll be sure to reward you
   children: []
   rect:
     serializedVersion: 2
-    x: 657
-    y: 139
+    x: 1431
+    y: 81
     width: 250
     height: 220
+  onEnterAction: 
+  onExitAction: GiveGhost1
+  condition:
+    and: []
+--- !u!114 &3821496932852445565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: e097a8bd-1171-49e5-bfd3-63ac20486f0e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Anyways, I have your ghost
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2003
+    y: 535
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: Complete
+  condition:
+    and: []
+--- !u!114 &6293210084978803593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 778f204d-7fdd-4b20-b813-a9770d868e60
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Looks like i lost a soul, could you go pick it up for me?
+  children:
+  - c61c4cce-7f3a-4023-b067-50882b4b14f3
+  - c7e0b8ef-9e96-48b3-bb62-90de614e3b8f
+  rect:
+    serializedVersion: 2
+    x: 344
+    y: 200
+    width: 250
+    height: 260
   onEnterAction: 
   onExitAction: 
   condition:
@@ -113,8 +251,8 @@ MonoBehaviour:
   - 362f3c1b-3d09-4b7b-9efa-f1800e39b88a
   rect:
     serializedVersion: 2
-    x: 369
-    y: 356
+    x: 627
+    y: 529
     width: 250
     height: 240
   onEnterAction: 
@@ -139,8 +277,34 @@ MonoBehaviour:
   - 8ec059f2-c95e-43fd-bf12-459c5e1aa9a6
   rect:
     serializedVersion: 2
-    x: 378
-    y: 124
+    x: 637
+    y: 138
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &9199224060247042668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 78d4a596-f694-49b4-8e7f-95d56ed984e0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You don't need to be rude. I'm doing the best I can.
+  children:
+  - 3a0394cd-19d7-45ea-a9c7-b18425806a81
+  rect:
+    serializedVersion: 2
+    x: 1408
+    y: 530
     width: 250
     height: 240
   onEnterAction: 

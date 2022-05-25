@@ -93,9 +93,6 @@ using UnityEngine;
             selectedPlayerNodeStyle.border = new RectOffset(12, 12, 12, 12);
 
             Texture2D something = EditorGUIUtility.Load("node0 on") as Texture2D;
-
-
-
         }
 
 
