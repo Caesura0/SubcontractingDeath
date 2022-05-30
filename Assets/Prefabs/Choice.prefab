@@ -217,8 +217,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ButtonButtonButtonButtonButtonButtonButtonButtonButtonButtonButtonButton
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 90b0226179aa5f24cbcedcf09aa9a60c, type: 2}
-  m_sharedMaterial: {fileID: -5351502865377843023, guid: 90b0226179aa5f24cbcedcf09aa9a60c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ad63a641a3766234c8c6caf7e8e54d0c, type: 2}
+  m_sharedMaterial: {fileID: -1116720885161214799, guid: ad63a641a3766234c8c6caf7e8e54d0c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -242,8 +242,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 120
+  m_fontSizeBase: 120
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
