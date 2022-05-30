@@ -549,13 +549,12 @@ MonoBehaviour:
   text: Hi!
   children:
   - 760a0f7f-21de-4c20-ae94-00c95e7bd18e
-  - 7dac5798-ba3c-421d-95be-12b83468369c
   rect:
     serializedVersion: 2
     x: 48
     y: 66
     width: 250
-    height: 260
+    height: 240
   onEnterAction: 
   onExitAction: 
   condition:

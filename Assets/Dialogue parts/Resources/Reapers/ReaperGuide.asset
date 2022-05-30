@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Name: 976f1428-edde-4244-b106-57507e5a58b3
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: Interesting story, but i don't hear my name in it.
+  text: Interesting story, but I don't hear my name in it.
   children:
   - ea5ae59c-c212-433c-8744-cebfa2f30e21
   rect:
