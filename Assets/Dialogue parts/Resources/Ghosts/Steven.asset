@@ -492,11 +492,16 @@ MonoBehaviour:
     width: 250
     height: 260
   onEnterAction: 
-  onExitAction: HasTalkedTo
+  onExitAction: 
   condition:
     and:
     - or:
       - predicate: 0
+        parameters:
+        - GetGhost2
+        negate: 0
+    - or:
+      - predicate: 1
         parameters:
         - GetGhost2
         negate: 1
@@ -552,7 +557,7 @@ MonoBehaviour:
     width: 250
     height: 260
   onEnterAction: 
-  onExitAction: CompleteObjective
+  onExitAction: 
   condition:
     and: []
 --- !u!114 &7322395248797053953
