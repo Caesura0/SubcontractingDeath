@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class AIConversant : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class AIConversant : MonoBehaviour
     [SerializeField] Dialogue dialogue;
 
     bool playerInRange = false;
-
+    private bool isConversable = true;
 
     private void Awake()
     {
@@ -27,7 +28,7 @@ public class AIConversant : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && isConversable)
         {
             dialogueIcon.SetActive(true);
             PlayerConversant player = collision.GetComponent<PlayerConversant>();
@@ -41,10 +42,20 @@ public class AIConversant : MonoBehaviour
         {
             PlayerConversant player = collision.GetComponent<PlayerConversant>();
             dialogueIcon.SetActive(false);
-            if (player.GetConversant() == this)
+            if (player.GetConversant() == this && !player.GetIsInDialogue())
             {
                 player.SetConversant(null, null);
             }
         }
+    }
+
+    public void SetIsConversable()
+    {
+        isConversable = false;
+    }
+
+    internal void SetDialogueIcon(bool v)
+    {
+        dialogueIcon.SetActive(v);
     }
 }

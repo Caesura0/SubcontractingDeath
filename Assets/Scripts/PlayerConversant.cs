@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using System;
 using System.Linq;
 
@@ -12,7 +11,14 @@ public class PlayerConversant : MonoBehaviour
     DialogueNode currentNode;
     private bool isChoosing;
 
+    PlayerController player;
+
     public event Action onConversationUpdated;
+
+    private void Awake()
+    {
+        player = GetComponent<PlayerController>();
+    }
     public void StartDialogue()
     {
         if(currentConversant == null) { return; }
@@ -20,6 +26,7 @@ public class PlayerConversant : MonoBehaviour
         currentNode = currentDialogue.GetRootNode();
         TriggerEnterAction();
         onConversationUpdated();
+        player.isInDialogue = true;
     }
 
     public void SetConversant( Dialogue dialogue, AIConversant dialogueRangeTrigger)
@@ -37,7 +44,10 @@ public class PlayerConversant : MonoBehaviour
         return currentConversant;
     }
 
-
+    public bool GetIsInDialogue()
+    {
+        return player.isInDialogue;
+    }
     public void Next()
     {
         int numPlayerResponses = FilterOnCondition(currentDialogue.GetPlayerChildren(currentNode)).Count();
@@ -98,8 +108,12 @@ public class PlayerConversant : MonoBehaviour
         TriggerExitAction();
         currentNode = null;
         isChoosing = false;
+        currentConversant.SetDialogueIcon(false);
         currentConversant = null;
         onConversationUpdated();
+        player.isInDialogue = false ;
+        
+        
     }
 
     public bool IsActive()
@@ -154,10 +168,12 @@ public class PlayerConversant : MonoBehaviour
     {
         //returns false if there are no children
         return FilterOnCondition(currentDialogue.GetAllChildren(currentNode)).Count() > 0;
+        //return currentDialogue.GetAllChildren(currentNode).Count() > 0;
     }
 
     private IEnumerable<DialogueNode> FilterOnCondition(IEnumerable<DialogueNode> inputNode)
     {
+        Debug.Log("filter on condition");
         foreach (var node in inputNode)
         {
             if (node.CheckCondition(GetEvaluators()))

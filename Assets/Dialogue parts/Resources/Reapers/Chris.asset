@@ -1,0 +1,867 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8612300651862798838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 028f1ce7-4c79-476c-8d86-95ed240f309e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Got my scythe yet? '
+  children:
+  - 3f3a87a4-14d8-4b3b-9407-92fcc0df22ae
+  - 4876ad22-d7e5-4e9f-962a-547b5acce368
+  rect:
+    serializedVersion: 2
+    x: 386
+    y: 410
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 0
+        parameters:
+        - GetScythe
+        negate: 0
+    - or:
+      - predicate: 1
+        parameters:
+        - GetScythe
+        negate: 1
+--- !u!114 &-8560925961508747465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ab6b506a-a28c-4e25-aa76-a3216c731f91
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'What up, dude? '
+  children:
+  - 57adee8f-2a42-4242-b922-d0bd235f09e1
+  - b17b89ed-716c-4f4b-8f1a-b4572bc80539
+  rect:
+    serializedVersion: 2
+    x: 449
+    y: 81
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 0
+        parameters:
+        - GetScythe
+        negate: 1
+--- !u!114 &-8238002192944923528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 4e790cdb-da47-4a1c-aebf-1024c698af2b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I think I'll just avoid it.
+  children:
+  - 40ba9a48-5968-4926-83aa-f5df69032cf8
+  rect:
+    serializedVersion: 2
+    x: 3706
+    y: 360
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6754102351125833978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: e01123ec-43a7-4126-bc01-d44ad14682af
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Really? Why not? '
+  children:
+  - bc9990a6-a35b-4ff4-8fe3-b1e4a5db9796
+  rect:
+    serializedVersion: 2
+    x: 2555
+    y: 252
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6739174998921531696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 9380c3f7-d501-4706-ba3b-b85e287c6ce3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Holy crow, it can kill us here?
+  children:
+  - a3909980-b114-468f-a317-bd514dfb6f85
+  rect:
+    serializedVersion: 2
+    x: 3129
+    y: 338
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6348473774361998727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 57adee8f-2a42-4242-b922-d0bd235f09e1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: '*blank stare*'
+  children:
+  - 589aa327-a5db-4eba-bbf2-d49fa7f58f44
+  rect:
+    serializedVersion: 2
+    x: 770
+    y: 26
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5709019564366319579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 40a247ef-f3b1-4f27-a774-a97646ab75eb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Okay? So what did you forget?
+  children:
+  - eff27880-9a01-425d-b2f6-ad553b4559cd
+  rect:
+    serializedVersion: 2
+    x: 1993
+    y: 266
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4758099706424093985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 6673a6b3-c020-4831-8b4a-19e0b908a72e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I'll be sure not to touch them.
+  children:
+  - 40ba9a48-5968-4926-83aa-f5df69032cf8
+  rect:
+    serializedVersion: 2
+    x: 2550
+    y: 501
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4697172350797584400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 1de589ef-bcbe-46d3-a047-19063ddca281
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: What are the plants for?
+  children:
+  - ea394536-872f-4e18-8dec-1aac380fb923
+  rect:
+    serializedVersion: 2
+    x: 1392
+    y: 577
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4654422411010533686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 626e7db4-70a8-4741-8c8e-9eafc79cf5c4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yo!
+  children:
+  - ab6b506a-a28c-4e25-aa76-a3216c731f91
+  - 028f1ce7-4c79-476c-8d86-95ed240f309e
+  - ffcbef6a-a130-4cbb-b46b-1d76c15b2f39
+  rect:
+    serializedVersion: 2
+    x: 100
+    y: 85
+    width: 250
+    height: 280
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4641383937595319705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 3f3a87a4-14d8-4b3b-9407-92fcc0df22ae
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Not yet. Trying to get past those plants.
+  children:
+  - 44c35c4f-2873-48fc-b4af-9abd50e61aff
+  rect:
+    serializedVersion: 2
+    x: 636
+    y: 520
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3943104315498676208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 4876ad22-d7e5-4e9f-962a-547b5acce368
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Got it right here.
+  children:
+  - a4dcea57-2319-43c9-a9da-e9d569087a24
+  rect:
+    serializedVersion: 2
+    x: 639
+    y: 760
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 3
+        parameters:
+        - GetScythe
+        negate: 0
+--- !u!114 &-3636604244139549790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: eff27880-9a01-425d-b2f6-ad553b4559cd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'OH! Yeah.. I''m not sure where my scythe is... and I can''t exactly go touch
+    them with my bare hands now, can I? '
+  children:
+  - e01123ec-43a7-4126-bc01-d44ad14682af
+  - 6673a6b3-c020-4831-8b4a-19e0b908a72e
+  rect:
+    serializedVersion: 2
+    x: 2250
+    y: 284
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2713271552531649924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: bc9990a6-a35b-4ff4-8fe3-b1e4a5db9796
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Well, touching them when they are still rooted will disperse your essense
+    throughout the plane. '
+  children:
+  - 9380c3f7-d501-4706-ba3b-b85e287c6ce3
+  rect:
+    serializedVersion: 2
+    x: 2853
+    y: 333
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1548464556351470765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: a3909980-b114-468f-a317-bd514dfb6f85
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: No way! Its not TECHNICALLY lethal. You'll reform eventually.... at least
+    I always do.
+  children:
+  - 4e790cdb-da47-4a1c-aebf-1024c698af2b
+  rect:
+    serializedVersion: 2
+    x: 3416
+    y: 327
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1228129941031598277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: be35ca7c-de01-41ca-baa2-0fdba6dc8ae5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I'm thinking its in that cave over there, but the Pink Death regrew. You'll
+    need to figure out a way to get past that gap. Maybe if you move sideways real
+    fast without jumping.... but I don't think you can run that quick.
+  children:
+  - fb92734b-6c66-49ab-a3ea-bf291c30e7c3
+  rect:
+    serializedVersion: 2
+    x: 3597
+    y: 1116
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-936567025404560733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ffcbef6a-a130-4cbb-b46b-1d76c15b2f39
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thanks for the assist brother.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 323
+    y: 759
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 0
+        parameters:
+        - GetScythe
+        negate: 0
+    - or:
+      - predicate: 1
+        parameters:
+        - GetScythe
+        negate: 0
+--- !u!114 &-679618820573135574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 589aa327-a5db-4eba-bbf2-d49fa7f58f44
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Alright then.. '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1148
+    y: 25
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-61636473763403672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 15404ea1-d841-4a38-b9ce-6122f183092c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Where is it again?
+  children:
+  - be35ca7c-de01-41ca-baa2-0fdba6dc8ae5
+  rect:
+    serializedVersion: 2
+    x: 3671
+    y: 852
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68af8466fa34e304c9afe2ffa6ced5fb, type: 3}
+  m_Name: Chris
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4654422411010533686}
+  - {fileID: -8560925961508747465}
+  - {fileID: -8612300651862798838}
+  - {fileID: -6348473774361998727}
+  - {fileID: -679618820573135574}
+  - {fileID: 7658456684859838591}
+  - {fileID: 5439287697188892912}
+  - {fileID: 6917038147858231772}
+  - {fileID: -4697172350797584400}
+  - {fileID: 2806918365412779746}
+  - {fileID: -5709019564366319579}
+  - {fileID: -3636604244139549790}
+  - {fileID: -6754102351125833978}
+  - {fileID: -2713271552531649924}
+  - {fileID: -6739174998921531696}
+  - {fileID: -1548464556351470765}
+  - {fileID: -8238002192944923528}
+  - {fileID: 3376553182788210486}
+  - {fileID: -61636473763403672}
+  - {fileID: -1228129941031598277}
+  - {fileID: -4758099706424093985}
+  - {fileID: 3542741043059269082}
+  - {fileID: 358259936293176947}
+  - {fileID: -4641383937595319705}
+  - {fileID: 1444109062086172775}
+  - {fileID: -3943104315498676208}
+  - {fileID: 7751060183782490845}
+  - {fileID: -936567025404560733}
+  - {fileID: 6616144747159805524}
+  - {fileID: 533487547301818926}
+--- !u!114 &358259936293176947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: a659ff9c-69f8-4a18-a61f-a32b78ef3f5a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thanks man. I appreciate it.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 3526
+    y: 1607
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &533487547301818926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: d3a24d7e-8739-488a-8dc2-567ef438921e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Wait. What do you mean "just Killer"
+  children:
+  - bc9990a6-a35b-4ff4-8fe3-b1e4a5db9796
+  rect:
+    serializedVersion: 2
+    x: 2004
+    y: 803
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1444109062086172775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 44c35c4f-2873-48fc-b4af-9abd50e61aff
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yeah, make sure not to touch them when they aren't harvested. Good luck.
+    I'm counting on you.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 919
+    y: 563
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2806918365412779746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: d925efd4-9cf6-4190-bf80-dbea499b513d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Those plants give a solid *magical boost* when left to dry, but they tend
+    to make me a little.. forgetful. '
+  children:
+  - 40a247ef-f3b1-4f27-a774-a97646ab75eb
+  rect:
+    serializedVersion: 2
+    x: 1731
+    y: 256
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3376553182788210486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 40ba9a48-5968-4926-83aa-f5df69032cf8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Good call. But if you grab my scythe I can help you jump off walls. I've
+    got power to spare man.
+  children:
+  - 15404ea1-d841-4a38-b9ce-6122f183092c
+  rect:
+    serializedVersion: 2
+    x: 3641
+    y: 600
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3542741043059269082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: fb92734b-6c66-49ab-a3ea-bf291c30e7c3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I'll figure it out.
+  children:
+  - a659ff9c-69f8-4a18-a61f-a32b78ef3f5a
+  rect:
+    serializedVersion: 2
+    x: 3559
+    y: 1355
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5439287697188892912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: f473e6e4-c727-40a0-873e-403c26c88396
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Not good brother, I was just over here chillin'' and harvesting some of
+    those Pink Death plants over there. '
+  children:
+  - 38e78121-ec6f-42e5-b2aa-a3a9e49448e7
+  - 1de589ef-bcbe-46d3-a047-19063ddca281
+  rect:
+    serializedVersion: 2
+    x: 1089
+    y: 285
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6616144747159805524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ea394536-872f-4e18-8dec-1aac380fb923
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: When they are cut and dried they have some "killer" effects heh. But while
+    they are still alive they are just Killer.
+  children:
+  - d3a24d7e-8739-488a-8dc2-567ef438921e
+  - 6673a6b3-c020-4831-8b4a-19e0b908a72e
+  rect:
+    serializedVersion: 2
+    x: 1718
+    y: 622
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6917038147858231772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 38e78121-ec6f-42e5-b2aa-a3a9e49448e7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Why is that not good? '
+  children:
+  - d925efd4-9cf6-4190-bf80-dbea499b513d
+  rect:
+    serializedVersion: 2
+    x: 1394
+    y: 228
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7658456684859838591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: b17b89ed-716c-4f4b-8f1a-b4572bc80539
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: How's it hanging?
+  children:
+  - f473e6e4-c727-40a0-873e-403c26c88396
+  rect:
+    serializedVersion: 2
+    x: 767
+    y: 273
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7751060183782490845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: a4dcea57-2319-43c9-a9da-e9d569087a24
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thanks brother. You'll be able to jump off walls down
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 955
+    y: 851
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: Complete
+  condition:
+    and: []

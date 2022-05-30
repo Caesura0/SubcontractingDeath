@@ -139,12 +139,11 @@ using UnityEngine;
             EditorUtility.SetDirty(this);
         }
 
-    public bool CheckCondition(IEnumerable<IPredicateEvaluator> evaluators)
-    {
-        return condition.Check(evaluators);
-    }
-
 
 #endif
-
+    public bool CheckCondition(IEnumerable<IPredicateEvaluator> evaluators)
+    {
+        Debug.Log("Check condition " + evaluators.ToString());
+        return condition.Check(evaluators);
+    }
 }

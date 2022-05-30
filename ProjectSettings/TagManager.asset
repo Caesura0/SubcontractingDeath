@@ -6,6 +6,10 @@ TagManager:
   tags:
   - PlayerData
   - AudioSource
+  - QuestHolder
+  - GhostTarget
+  - LevelManager
+  - Hazard
   layers:
   - Default
   - TransparentFX

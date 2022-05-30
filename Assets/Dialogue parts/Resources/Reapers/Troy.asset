@@ -1,0 +1,570 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6971744781815175427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: eebb1048-ed4b-4337-8c68-48ba8aad328a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Much Appreciated '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 339
+    y: 941
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 1
+        parameters:
+        - GetGhost1
+        negate: 0
+    - or:
+      - predicate: 0
+        parameters:
+        - GetGhost1
+        negate: 0
+--- !u!114 &-6289384766231084597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ef8d2617-0e91-4d13-971c-f4a38c7306cc
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: IDK I just forget things sometimes
+  children:
+  - 32b3b5a6-afba-4ae1-89d7-673ec991a94c
+  rect:
+    serializedVersion: 2
+    x: 1025
+    y: 225
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5448799012009645045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 6a637049-6497-40a9-84f3-28fdc3ee8347
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Well, I guess I could use the work.
+  children:
+  - e79802b6-743a-4676-a624-c4f1db9c74c5
+  rect:
+    serializedVersion: 2
+    x: 1437
+    y: 326
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4990364084204300712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: c9bdadfe-3c58-4523-9196-8d7f91d71948
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hello...
+  children:
+  - 0061db7c-d4c9-4a1b-91bf-b18dc9e9bc34
+  - f3e909e2-3069-452f-a6aa-d0cec08e17bb
+  - eebb1048-ed4b-4337-8c68-48ba8aad328a
+  rect:
+    serializedVersion: 2
+    x: 70
+    y: 262
+    width: 250
+    height: 280
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4316934163964809805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 5acabac8-5431-496c-987a-88ea8d2c7294
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: OK, I'll be able to help with that jumping once I have that soul back.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 988
+    y: 780
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3153072825532266171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 3db5553a-116c-4a6d-80c2-b65d5e50ec29
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thanks again, please bring her back when you find her. She may need some
+    convincing to come with you.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2043
+    y: 272
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: GetGhost1
+  condition:
+    and: []
+--- !u!114 &-2104422577390410012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: f3e909e2-3069-452f-a6aa-d0cec08e17bb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Any luck finding that soul?
+  children:
+  - 72f75519-36ab-419e-9319-6ccf3cac97bd
+  - 0a7cf4a8-4c5b-474c-be70-e9e572b09dce
+  rect:
+    serializedVersion: 2
+    x: 376
+    y: 547
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 0
+        parameters:
+        - GetGhost1
+        negate: 0
+    - or:
+      - predicate: 1
+        parameters:
+        - GetGhost1
+        negate: 1
+--- !u!114 &-861014747399399504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 515cbb4f-41e0-4c16-b3fb-0a7556553f13
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: What do you mean "misplaced"
+  children:
+  - ef8d2617-0e91-4d13-971c-f4a38c7306cc
+  rect:
+    serializedVersion: 2
+    x: 718
+    y: 280
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68af8466fa34e304c9afe2ffa6ced5fb, type: 3}
+  m_Name: Troy
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4990364084204300712}
+  - {fileID: 8257993576069124959}
+  - {fileID: -2104422577390410012}
+  - {fileID: -6971744781815175427}
+  - {fileID: 2277791736650340880}
+  - {fileID: 4097610050709509470}
+  - {fileID: 6166777405074420659}
+  - {fileID: 8935918191131132502}
+  - {fileID: 2591112573729591190}
+  - {fileID: -3153072825532266171}
+  - {fileID: -5448799012009645045}
+  - {fileID: -861014747399399504}
+  - {fileID: 2962947092513144268}
+  - {fileID: 420629687346388900}
+  - {fileID: 8561555807775811876}
+  - {fileID: 2400785402168748366}
+  - {fileID: -4316934163964809805}
+  - {fileID: 7232526200833702689}
+  - {fileID: -6289384766231084597}
+--- !u!114 &420629687346388900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 72f75519-36ab-419e-9319-6ccf3cac97bd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Not yet, its a lot of jumping!
+  children:
+  - 5acabac8-5431-496c-987a-88ea8d2c7294
+  rect:
+    serializedVersion: 2
+    x: 690
+    y: 731
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 1
+        parameters:
+        - GetGhost1
+        negate: 1
+--- !u!114 &2277791736650340880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: c5391c65-deb9-4e0b-bbc0-4f20308c61ca
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Sure, where is it?
+  children:
+  - e79802b6-743a-4676-a624-c4f1db9c74c5
+  rect:
+    serializedVersion: 2
+    x: 721
+    y: 38
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2400785402168748366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ed3b1c40-918b-46bd-8811-92067796cdbc
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thank goodness, I can't give you wings but i can definitely help with all
+    the jumping.  You should be able to get an extra boost in  the air
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 970
+    y: 1029
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: Complete
+  condition:
+    and: []
+--- !u!114 &2591112573729591190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: c8e35abd-ac91-4614-9694-1fbfde791cf6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Ok, I got it, stop breaking the fourth wall.
+  children:
+  - 3db5553a-116c-4a6d-80c2-b65d5e50ec29
+  rect:
+    serializedVersion: 2
+    x: 1816
+    y: 44
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2962947092513144268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 32b3b5a6-afba-4ae1-89d7-673ec991a94c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I think you need to better at your job.
+  children:
+  - 63687d1a-e26f-4d96-9d29-ad5642d090a3
+  rect:
+    serializedVersion: 2
+    x: 1327
+    y: 571
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4097610050709509470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: a2228fac-a68c-4996-9f44-bcdf5e85b2d1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Why can you not go get it yourself?
+  children:
+  - ca08c470-2cfe-4b7d-8325-4f58813cedee
+  rect:
+    serializedVersion: 2
+    x: 710
+    y: 485
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6166777405074420659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ca08c470-2cfe-4b7d-8325-4f58813cedee
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: If I'm caught leaving my post and backtracking for souls again I'll be in
+    for it.  I just can't spend another 100 years polishing scythes!
+  children:
+  - 6a637049-6497-40a9-84f3-28fdc3ee8347
+  - 32b3b5a6-afba-4ae1-89d7-673ec991a94c
+  rect:
+    serializedVersion: 2
+    x: 999
+    y: 451
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7232526200833702689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 63687d1a-e26f-4d96-9d29-ad5642d090a3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: There's no need to be cruel, I'm doing my best!
+  children:
+  - 6a637049-6497-40a9-84f3-28fdc3ee8347
+  rect:
+    serializedVersion: 2
+    x: 1613
+    y: 646
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8257993576069124959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 0061db7c-d4c9-4a1b-91bf-b18dc9e9bc34
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Looks like I misplaced a soul, could you go pick it up for me?
+  children:
+  - c5391c65-deb9-4e0b-bbc0-4f20308c61ca
+  - a2228fac-a68c-4996-9f44-bcdf5e85b2d1
+  - 515cbb4f-41e0-4c16-b3fb-0a7556553f13
+  rect:
+    serializedVersion: 2
+    x: 392
+    y: 142
+    width: 250
+    height: 280
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 0
+        parameters:
+        - GetGhost1
+        negate: 1
+--- !u!114 &8561555807775811876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 0a7cf4a8-4c5b-474c-be70-e9e572b09dce
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes I do, she's here.
+  children:
+  - ed3b1c40-918b-46bd-8811-92067796cdbc
+  rect:
+    serializedVersion: 2
+    x: 663
+    y: 972
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 3
+        parameters:
+        - GetGhost1
+        negate: 0
+--- !u!114 &8935918191131132502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: e79802b6-743a-4676-a624-c4f1db9c74c5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thank you so much. You're looking for Jessica.  She's up on the top of that
+    conspicuous group of floating spiky rocks arranged in a way to to imply climbing
+    up......
+  children:
+  - c8e35abd-ac91-4614-9694-1fbfde791cf6
+  rect:
+    serializedVersion: 2
+    x: 1447
+    y: 70
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

@@ -13,5 +13,6 @@ public class QuestGiver : MonoBehaviour
     {
         QuestHolder questList = GameObject.FindGameObjectWithTag("Player").GetComponent<QuestHolder>();
         questList.AddQuest(questName);
+        Debug.Log("questName");
     }
 }

@@ -1,0 +1,844 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7795073498529796259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ff561638-07e3-4cbf-ab6b-dfb7ed658dbd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Well.. err no. I'm also just terrified of heights..
+  children:
+  - d6d41587-a98f-4393-8693-0f307d5a3861
+  - b63ebbdc-4f3a-47b8-b6eb-5375f5f541e1
+  rect:
+    serializedVersion: 2
+    x: 1367
+    y: 121
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-7723855634080665893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 51e99a5d-a120-44b9-93b0-6276cf6a101a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes, take him. Now. Please.
+  children:
+  - 0ff5addc-a7f7-45a5-b204-03ff78766731
+  rect:
+    serializedVersion: 2
+    x: 634
+    y: 651
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 3
+        parameters:
+        - GetGhost2
+        negate: 0
+--- !u!114 &-7631410676191563615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: b63ebbdc-4f3a-47b8-b6eb-5375f5f541e1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'I understand. Who am I looking for? '
+  children:
+  - 27ebdf76-e5aa-4d85-b0ef-0e13c280a666
+  rect:
+    serializedVersion: 2
+    x: 2063
+    y: 494
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6137662715579114236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ed43e36d-798a-4b51-92c1-80dd4694cce5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Any chance you've been able to make it up there? You may need to upgrade
+    your jump if you haven't yet.
+  children:
+  - a7467ee7-b5cd-4472-b28f-145ae9e2cb16
+  - 51e99a5d-a120-44b9-93b0-6276cf6a101a
+  rect:
+    serializedVersion: 2
+    x: 340
+    y: 427
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 0
+        parameters:
+        - GetGhost2
+        negate: 0
+    - or:
+      - predicate: 1
+        parameters:
+        - GetGhost2
+        negate: 1
+--- !u!114 &-5441243415973897555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 27ebdf76-e5aa-4d85-b0ef-0e13c280a666
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: His name is Steven. He's way way up there. You'll probably need a little
+    extra umph in your jump.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2734
+    y: 793
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &-5369374915873792736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 65baf8c5-bc41-4557-b3eb-ccf86a18080c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Oh yes, don't touch them. They'll disperse your essence for a while.
+  children:
+  - b6a55185-bfeb-4527-9258-b5a22a295f31
+  rect:
+    serializedVersion: 2
+    x: 961
+    y: 508
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5291022706104558569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: b6a55185-bfeb-4527-9258-b5a22a295f31
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: They... what?
+  children:
+  - c26efeef-eab2-4830-9509-cb4ecd9a6604
+  rect:
+    serializedVersion: 2
+    x: 1211
+    y: 618
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5078542004189194985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: c26efeef-eab2-4830-9509-cb4ecd9a6604
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Don't worry, its not "technically" lethal. Or at least not permanently.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1461
+    y: 728
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3609821042017880741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 305df218-89da-4cd4-b1d0-6b6d5c5940cb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Was he that annoying?
+  children:
+  - ff561638-07e3-4cbf-ab6b-dfb7ed658dbd
+  rect:
+    serializedVersion: 2
+    x: 1066
+    y: 113
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3245996682837788349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: d7807730-5fb7-457d-9e2a-6039a588fe8f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Fears don't have to be logical, you know...
+  children:
+  - 628bd555-531c-44b3-ac58-fa762587d07d
+  - 5584cb73-ec5b-4b2f-943d-152e8f55d8bd
+  rect:
+    serializedVersion: 2
+    x: 1997
+    y: 25
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2884636128339841809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: a7467ee7-b5cd-4472-b28f-145ae9e2cb16
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Not yet. Its a bit higher then expected. By the the way, those plants look
+    a bit odd....
+  children:
+  - 65baf8c5-bc41-4557-b3eb-ccf86a18080c
+  rect:
+    serializedVersion: 2
+    x: 711
+    y: 398
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2159718421784738378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 313d1cf4-1b72-499c-b5ea-b9a2b86b5242
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Oh! Thank god you''re here. Maybe you could convince that soul over there
+    to come back with me. Just FYI - he''s super annoying '
+  children:
+  - 067767ce-1fb3-40bd-9387-78620fd8043c
+  rect:
+    serializedVersion: 2
+    x: 393
+    y: 141
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 0
+        parameters:
+        - GetGhost2
+        negate: 1
+--- !u!114 &-1904867035993677023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 8d0b3708-a159-437d-8280-e486fa322568
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I just think its cruel the creator of this place made all these dang platforms
+    for us to move around on instead of a nice straight route from one place to another.
+    I mean, I know its boring but why all this up and down...
+  children:
+  - ee4bcac1-9b03-4cc1-83af-f7185a79f4b0
+  rect:
+    serializedVersion: 2
+    x: 1791
+    y: 694
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1344974466082604120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 8d44c0bb-d924-47c8-84a2-56d64e517bd6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: If I wasn't so scared of falling, I would have taken the pedestrian overpass,
+    and never got hit by that car while crossing the street...
+  children:
+  - 8d0b3708-a159-437d-8280-e486fa322568
+  rect:
+    serializedVersion: 2
+    x: 1541
+    y: 584
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68af8466fa34e304c9afe2ffa6ced5fb, type: 3}
+  m_Name: Oscar
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 4278292572653875766}
+  - {fileID: -2159718421784738378}
+  - {fileID: 2563479982158721835}
+  - {fileID: -3609821042017880741}
+  - {fileID: 5202908868674709558}
+  - {fileID: -7795073498529796259}
+  - {fileID: 1298009532046535736}
+  - {fileID: 5596973105585347396}
+  - {fileID: -7631410676191563615}
+  - {fileID: -3245996682837788349}
+  - {fileID: -1344974466082604120}
+  - {fileID: -1904867035993677023}
+  - {fileID: 4614448527471080409}
+  - {fileID: 5802927448403026857}
+  - {fileID: 4166235632433038378}
+  - {fileID: 5163867842555520621}
+  - {fileID: 4966102468735826004}
+  - {fileID: 4051026669890686341}
+  - {fileID: -5441243415973897555}
+  - {fileID: -6137662715579114236}
+  - {fileID: 8516922735434647010}
+  - {fileID: -2884636128339841809}
+  - {fileID: -5369374915873792736}
+  - {fileID: -5291022706104558569}
+  - {fileID: -5078542004189194985}
+  - {fileID: -7723855634080665893}
+  - {fileID: 7975632586227295717}
+  - {fileID: 4913175964349510032}
+  - {fileID: 2539626402057379188}
+--- !u!114 &1298009532046535736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 13fa2be1-4aaf-476e-a196-0f8adb43d2d0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Well, maybe a bit. i''m just terrified of heights.. Ever since I was on
+    the mortal plane heights have been horrible. It''s how I died, you know.. '
+  children:
+  - 8d44c0bb-d924-47c8-84a2-56d64e517bd6
+  rect:
+    serializedVersion: 2
+    x: 1291
+    y: 464
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2539626402057379188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: c2c2bc05-5f49-4c3a-9c7f-f3462c126534
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Good luck!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1452
+    y: 1017
+    width: 250
+    height: 220
+  onEnterAction: Complete
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2563479982158721835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 067767ce-1fb3-40bd-9387-78620fd8043c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'They keep talking and talking.  Any time I would try to get going, he would
+    refuse to come....
+
+    I just can''t stay up there listening to him.'
+  children:
+  - 305df218-89da-4cd4-b1d0-6b6d5c5940cb
+  - 58eb4544-810a-4ca8-a19a-c61107247bec
+  rect:
+    serializedVersion: 2
+    x: 725
+    y: 131
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4051026669890686341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 4b06428f-9bf3-4a77-8140-08aaad04b026
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: When you put it that way... who am I looking for?
+  children:
+  - 27ebdf76-e5aa-4d85-b0ef-0e13c280a666
+  rect:
+    serializedVersion: 2
+    x: 2971
+    y: 539
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4166235632433038378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 5584cb73-ec5b-4b2f-943d-152e8f55d8bd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Apparently neither does death's hiring process
+  children:
+  - 1cc1d317-c760-4222-ade4-23db869df919
+  rect:
+    serializedVersion: 2
+    x: 2297
+    y: 284
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4278292572653875766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: fd97a467-3490-49db-85e7-ad74e9ef5004
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ...
+  children:
+  - 313d1cf4-1b72-499c-b5ea-b9a2b86b5242
+  - ed43e36d-798a-4b51-92c1-80dd4694cce5
+  - fead4dd3-47b4-4445-a094-b2cdac7f5fde
+  rect:
+    serializedVersion: 2
+    x: 69
+    y: 157
+    width: 250
+    height: 280
+  onEnterAction: 
+  onExitAction: Fade
+  condition:
+    and: []
+--- !u!114 &4614448527471080409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ee4bcac1-9b03-4cc1-83af-f7185a79f4b0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Okay, okay I'll go get the soul already. Who am I looking for again?
+  children:
+  - 27ebdf76-e5aa-4d85-b0ef-0e13c280a666
+  rect:
+    serializedVersion: 2
+    x: 2072
+    y: 724
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4913175964349510032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: d88a272d-dcec-4764-8b0b-318a31b9d392
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Hopefully that will be useful. Won't help me get up that wall though.
+  children:
+  - c2c2bc05-5f49-4c3a-9c7f-f3462c126534
+  rect:
+    serializedVersion: 2
+    x: 1202
+    y: 907
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4966102468735826004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 30c0b663-3807-4ce6-988e-38a3e47805b4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Your help in exchange for some reaper magic so you can get out of here?
+  children:
+  - 4b06428f-9bf3-4a77-8140-08aaad04b026
+  rect:
+    serializedVersion: 2
+    x: 2863
+    y: 260
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5163867842555520621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 1cc1d317-c760-4222-ade4-23db869df919
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I might be a mess, but you're the one stuck here in purgatory without your
+    wings. Are you interested in helping or what?
+  children:
+  - 30c0b663-3807-4ce6-988e-38a3e47805b4
+  rect:
+    serializedVersion: 2
+    x: 2569
+    y: 303
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5202908868674709558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 58eb4544-810a-4ca8-a19a-c61107247bec
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Sounds like you''re two peas in a pod to me..  '
+  children:
+  - 13fa2be1-4aaf-476e-a196-0f8adb43d2d0
+  rect:
+    serializedVersion: 2
+    x: 1041
+    y: 354
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5596973105585347396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: d6d41587-a98f-4393-8693-0f307d5a3861
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Aren't you immortal?
+  children:
+  - d7807730-5fb7-457d-9e2a-6039a588fe8f
+  rect:
+    serializedVersion: 2
+    x: 1712
+    y: 25
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5802927448403026857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 628bd555-531c-44b3-ac58-fa762587d07d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I can't argue with that. Now, who am I looking for ?
+  children:
+  - 27ebdf76-e5aa-4d85-b0ef-0e13c280a666
+  rect:
+    serializedVersion: 2
+    x: 2303
+    y: 47
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7975632586227295717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 0ff5addc-a7f7-45a5-b204-03ff78766731
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thank you. You should be able to dash forward with "Shift".  Its good for
+    getting places quickly, or across gaps that you can't jump through.
+  children:
+  - d88a272d-dcec-4764-8b0b-318a31b9d392
+  rect:
+    serializedVersion: 2
+    x: 952
+    y: 797
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8516922735434647010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: fead4dd3-47b4-4445-a094-b2cdac7f5fde
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: So glad I didn't have to go back up there. Hopefully I don't need the upper
+    portal again.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 322
+    y: 738
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 0
+        parameters:
+        - GetGhost2
+        negate: 0
+    - or:
+      - predicate: 1
+        parameters:
+        - GetGhost2
+        negate: 0

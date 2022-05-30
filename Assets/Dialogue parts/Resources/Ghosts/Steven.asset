@@ -1,0 +1,610 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8291162950493374506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 79467aae-5feb-49d0-96ae-e40ced72a8bf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes but.. who won the battle?
+  children:
+  - 7f52bab5-0ccc-43cd-87e0-7573b856227f
+  rect:
+    serializedVersion: 2
+    x: 2479
+    y: 639
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-8044672997862020095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 7abf1f8a-fbef-41c3-a152-2d86ac7227b6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Err yes, please go on...
+  children:
+  - c91362cf-7785-4f29-aa3f-aa1adcfcc143
+  rect:
+    serializedVersion: 2
+    x: 749
+    y: 318
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6868318147509427187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 63a5a219-23db-4761-9e3f-98a8b1f56f20
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Why was it unsactioned?
+  children:
+  - 3f435f41-63a6-4052-9d9b-f4d6712b13cf
+  rect:
+    serializedVersion: 2
+    x: 1360
+    y: 350
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5332321917844267689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 3f435f41-63a6-4052-9d9b-f4d6712b13cf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: .. there may have been a storm coming in and the comittee deemed it "unsafe"
+    but we weren't about to let that stop us! The strong winds up the intensity of
+    the fights, and they were too concerned about the "casuals" who don't have the
+    skill or guts to handle it...
+  children:
+  - f9ef2a17-00c5-4491-91c3-ba1b5229acf7
+  - 456be451-087e-43b4-86fb-08eb7e7676e5
+  rect:
+    serializedVersion: 2
+    x: 1610
+    y: 460
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5279615807702667669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 7dac5798-ba3c-421d-95be-12b83468369c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Where was I again? Maybe I should just start from the beginning.. '
+  children:
+  - 7abf1f8a-fbef-41c3-a152-2d86ac7227b6
+  rect:
+    serializedVersion: 2
+    x: 328
+    y: 322
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 0
+        parameters:
+        - GetGhost2
+        negate: 0
+--- !u!114 &-4450915618950136257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 456be451-087e-43b4-86fb-08eb7e7676e5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Casuals? I didn''t think kite fighting was that serious.. '
+  children:
+  - 28955242-d8ad-4236-841a-c1b6645f5303
+  rect:
+    serializedVersion: 2
+    x: 1739
+    y: 753
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4012710758059042992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 28955242-d8ad-4236-841a-c1b6645f5303
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: What are you talking about? What could be more serious??? Just a man and
+    his kite against the world!
+  children:
+  - 7dac5798-ba3c-421d-95be-12b83468369c
+  rect:
+    serializedVersion: 2
+    x: 2009
+    y: 799
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3387821892491053998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: c91362cf-7785-4f29-aa3f-aa1adcfcc143
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'So the other day, I was at the park for an unsanctioned fighter kite battle.
+    I recently made some critical modifications I was eager to show off. '
+  children:
+  - 9014a414-2880-4e84-a825-7d7f0d3dbf76
+  - 63a5a219-23db-4761-9e3f-98a8b1f56f20
+  rect:
+    serializedVersion: 2
+    x: 1061
+    y: 250
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2958268627427877342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 7de224b8-663d-4c01-bbb1-4f67f97c74dd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Well, actually I got hit by lightning, perhaps due to my metallic upgrades,.
+    and the next thing I knew, I woke up next to Oscar telling me I had "moved on"..
+    like what do you mean moved on???
+  children:
+  - 79467aae-5feb-49d0-96ae-e40ced72a8bf
+  - f438a5dc-e29b-4c03-af48-cc874d5aafc1
+  rect:
+    serializedVersion: 2
+    x: 2229
+    y: 529
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2865252067323846076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: f438a5dc-e29b-4c03-af48-cc874d5aafc1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Looks like the committe was right after all.. '
+  children:
+  - 10b03f43-01bf-4b54-9b8c-dccaf71ac3ad
+  rect:
+    serializedVersion: 2
+    x: 2452
+    y: 874
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68af8466fa34e304c9afe2ffa6ced5fb, type: 3}
+  m_Name: Steven
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 7135328445267476798}
+  - {fileID: 6604871675859602671}
+  - {fileID: -5279615807702667669}
+  - {fileID: -8044672997862020095}
+  - {fileID: 2343010070048871641}
+  - {fileID: -3387821892491053998}
+  - {fileID: 4540968517308702997}
+  - {fileID: -6868318147509427187}
+  - {fileID: 4474015338126741434}
+  - {fileID: 3567843931186618505}
+  - {fileID: -5332321917844267689}
+  - {fileID: 8058143691182390502}
+  - {fileID: -4450915618950136257}
+  - {fileID: -2958268627427877342}
+  - {fileID: -8291162950493374506}
+  - {fileID: 7322395248797053953}
+  - {fileID: 6655153795981568443}
+  - {fileID: 5316204179626096534}
+  - {fileID: -2865252067323846076}
+  - {fileID: 3235396312921651235}
+  - {fileID: -4012710758059042992}
+--- !u!114 &2343010070048871641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: aabf65ce-53f7-4406-9408-331ef1641e1b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes, he has sent me to pick you up. Can we go?
+  children:
+  - 93726e5b-0c57-4009-88da-47001cc1ce81
+  rect:
+    serializedVersion: 2
+    x: 753
+    y: 13
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3235396312921651235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 10b03f43-01bf-4b54-9b8c-dccaf71ac3ad
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hey, that's not funny! Were you even listening to the story? A storm wouldnt
+    phase a true kite fighter!
+  children:
+  - 7dac5798-ba3c-421d-95be-12b83468369c
+  rect:
+    serializedVersion: 2
+    x: 2702
+    y: 984
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3567843931186618505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 93726e5b-0c57-4009-88da-47001cc1ce81
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Well just let me tell you how I got up here first!
+  children:
+  - c91362cf-7785-4f29-aa3f-aa1adcfcc143
+  rect:
+    serializedVersion: 2
+    x: 1080
+    y: -21
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4474015338126741434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: cbac28ca-f3e1-4268-a9ee-0315da5e92e8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: No way, he kept interrupting me. This is an interesting story here, you know!
+  children:
+  - 7dac5798-ba3c-421d-95be-12b83468369c
+  rect:
+    serializedVersion: 2
+    x: 1664
+    y: 190
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4540968517308702997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 9014a414-2880-4e84-a825-7d7f0d3dbf76
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I'm sure Oscar would be thrilled to hear this, why don't we have this conversation
+    on the ground?
+  children:
+  - cbac28ca-f3e1-4268-a9ee-0315da5e92e8
+  rect:
+    serializedVersion: 2
+    x: 1391
+    y: 107
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5316204179626096534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ccb34a9e-2edd-4f50-b2c1-65e4f20c0e5e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Ha Ha. Dying. Awesome. I get it. Let's go..
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 3297
+    y: 913
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: CompleteObjective
+  condition:
+    and: []
+--- !u!114 &6604871675859602671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 760a0f7f-21de-4c20-ae94-00c95e7bd18e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Who are you? What is your name? You look different than the guy who was
+    with me last. I think his name was Oscar, wasn''t it? Yes, I''m pretty sure it
+    was. '
+  children:
+  - 7abf1f8a-fbef-41c3-a152-2d86ac7227b6
+  - aabf65ce-53f7-4406-9408-331ef1641e1b
+  rect:
+    serializedVersion: 2
+    x: 372
+    y: 39
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: HasTalkedTo
+  condition:
+    and:
+    - or:
+      - predicate: 0
+        parameters:
+        - GetGhost2
+        negate: 1
+--- !u!114 &6655153795981568443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: bafd1ed6-e036-4207-abf8-be43de2efb01
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Absolutely! Now, would you mind coming down to see Oscar with me? He can
+    get you to where you need to be. I'm sure there are plenty others around that
+    are "dying" to hear your story!
+  children:
+  - ccb34a9e-2edd-4f50-b2c1-65e4f20c0e5e
+  rect:
+    serializedVersion: 2
+    x: 3046
+    y: 803
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7135328445267476798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 6f09c084-11a2-4a6e-a9fb-c419d4d93636
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hi!
+  children:
+  - 760a0f7f-21de-4c20-ae94-00c95e7bd18e
+  - 7dac5798-ba3c-421d-95be-12b83468369c
+  rect:
+    serializedVersion: 2
+    x: 48
+    y: 66
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: CompleteObjective
+  condition:
+    and: []
+--- !u!114 &7322395248797053953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 7f52bab5-0ccc-43cd-87e0-7573b856227f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Well, I did, of course! Mine was the only kite left in the sky! I'm glad
+    you appreciate the important things here.
+  children:
+  - bafd1ed6-e036-4207-abf8-be43de2efb01
+  rect:
+    serializedVersion: 2
+    x: 2797
+    y: 693
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8058143691182390502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: f9ef2a17-00c5-4491-91c3-ba1b5229acf7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Sounds intense. How did the fight go?
+  children:
+  - 7de224b8-663d-4c01-bbb1-4f67f97c74dd
+  rect:
+    serializedVersion: 2
+    x: 1937
+    y: 475
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

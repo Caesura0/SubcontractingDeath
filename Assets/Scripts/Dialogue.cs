@@ -16,13 +16,13 @@ using UnityEngine;
 
         Vector3 newOffset = new Vector2(100, 100);
 
-#if UNITY_EDITOR
+
         private void Awake()
         {
             OnValidate();
 
         }
-#endif
+
 
         private void OnValidate()
         {

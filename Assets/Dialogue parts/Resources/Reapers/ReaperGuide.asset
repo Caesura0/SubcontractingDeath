@@ -1,0 +1,535 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8583503651229197539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 4048b1b5-bf4c-4690-a3ee-912db82b3409
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ...wanted to get back up that hole you fell down and back into heaven, you
+    might consider helping out my fellow reapers.
+  children:
+  - b7d2e5ea-ebb5-4d8c-b323-6945e83abc69
+  - 71a206b7-fc60-41d8-9813-ad364e781f11
+  rect:
+    serializedVersion: 2
+    x: 1818
+    y: 584
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-7987535823321498376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 71a206b7-fc60-41d8-9813-ad364e781f11
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'That sounds like a fair deal. '
+  children:
+  - 274645ec-b1b7-4daa-8574-4ccc611cca5f
+  rect:
+    serializedVersion: 2
+    x: 2116
+    y: 891
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4939496573227022533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 976f1428-edde-4244-b106-57507e5a58b3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Interesting story, but i don't hear my name in it.
+  children:
+  - ea5ae59c-c212-433c-8744-cebfa2f30e21
+  rect:
+    serializedVersion: 2
+    x: 1003
+    y: 310
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4640731299809301741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: bc6d5560-a44d-4609-aa9f-f9bfd87f16d2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Welcome to purgatory, where we guide souls through to the afterlife....mostly.
+  children:
+  - 5fb2c701-3dd5-43db-bd91-4602a00a555c
+  - 976f1428-edde-4244-b106-57507e5a58b3
+  rect:
+    serializedVersion: 2
+    x: 685
+    y: 134
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4306101804766546438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 74ceaca5-46f7-480b-8757-ba9f986b4983
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Looks like you had a bit of a fall. No wings, no magic, not very prepared
+    are you?
+  children:
+  - 8dcbd802-3447-4de1-8d6a-2b1e50eff54f
+  rect:
+    serializedVersion: 2
+    x: 14
+    y: 67
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3601156433648701233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 1ccf57dd-b58f-49f7-b1a1-8e2d5a0ebfcc
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: There it is.
+  children:
+  - 4048b1b5-bf4c-4690-a3ee-912db82b3409
+  rect:
+    serializedVersion: 2
+    x: 1552
+    y: 526
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2710026323157580999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: a1ac5965-4c74-4103-93e3-f77d82582b46
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Nonsense, where would the lesson be in that? Besides, maybe we could get
+    back up to quota.
+  children:
+  - af4b5eae-8884-4802-96b4-0278312f7bae
+  rect:
+    serializedVersion: 2
+    x: 2230
+    y: 35
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2072347164827120351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: db30b46e-a435-4c2e-85b8-4ca7cd77e542
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Well thats great news for me. How exactly does this work?
+  children:
+  - 274645ec-b1b7-4daa-8574-4ccc611cca5f
+  rect:
+    serializedVersion: 2
+    x: 1800
+    y: -41
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1215302480411036505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 8874c661-4a0f-4d1c-a550-babc981d0f96
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Okay, how does this work?
+  children:
+  - 274645ec-b1b7-4daa-8574-4ccc611cca5f
+  rect:
+    serializedVersion: 2
+    x: 3090
+    y: 218
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1129960374328014258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 07e00cfe-532b-489a-9a2d-e5da11f3778a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Sooner started, sooner finished. Good luck.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2721
+    y: 892
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: Fade
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68af8466fa34e304c9afe2ffa6ced5fb, type: 3}
+  m_Name: ReaperGuide
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4306101804766546438}
+  - {fileID: 8573980034120336923}
+  - {fileID: -4640731299809301741}
+  - {fileID: 9044037414148938241}
+  - {fileID: -4939496573227022533}
+  - {fileID: 5683907379483410936}
+  - {fileID: -3601156433648701233}
+  - {fileID: -8583503651229197539}
+  - {fileID: 7796934883310431081}
+  - {fileID: 540888812423642156}
+  - {fileID: -7987535823321498376}
+  - {fileID: 8862166177593321412}
+  - {fileID: -1129960374328014258}
+  - {fileID: -2072347164827120351}
+  - {fileID: 361763398364003837}
+  - {fileID: -2710026323157580999}
+  - {fileID: 1789265823683838944}
+  - {fileID: 3334486885318766129}
+  - {fileID: -1215302480411036505}
+--- !u!114 &361763398364003837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 1a13eb0b-34bd-4b7e-a0ba-4e33a90060cf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Couldn't you just .. *whoosh* ..me up there?
+  children:
+  - a1ac5965-4c74-4103-93e3-f77d82582b46
+  rect:
+    serializedVersion: 2
+    x: 1795
+    y: 201
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &540888812423642156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: b7d2e5ea-ebb5-4d8c-b323-6945e83abc69
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I guess I don't really have a choice now, do i?
+  children:
+  - 274645ec-b1b7-4daa-8574-4ccc611cca5f
+  rect:
+    serializedVersion: 2
+    x: 2429
+    y: 428
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1789265823683838944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: af4b5eae-8884-4802-96b4-0278312f7bae
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Sounds like exploitation to me.. '
+  children:
+  - daf7d307-cea4-464b-a23c-13479df037fe
+  rect:
+    serializedVersion: 2
+    x: 2506
+    y: 94
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3334486885318766129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: daf7d307-cea4-464b-a23c-13479df037fe
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I prefer to think of it as a fair trade for cleaning up your mess.
+  children:
+  - 8874c661-4a0f-4d1c-a550-babc981d0f96
+  rect:
+    serializedVersion: 2
+    x: 2840
+    y: 108
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5683907379483410936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: ea5ae59c-c212-433c-8744-cebfa2f30e21
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Well if you..
+  children:
+  - 1ccf57dd-b58f-49f7-b1a1-8e2d5a0ebfcc
+  rect:
+    serializedVersion: 2
+    x: 1302
+    y: 416
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7796934883310431081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: cfbf0ebb-5439-4d83-9fce-6bb04234f9d6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: We don't need to get into that too much. Let's just say we are understaffed
+    and our "new hires" are not necessarily the cream of the crop here.
+  children:
+  - db30b46e-a435-4c2e-85b8-4ca7cd77e542
+  - 1a13eb0b-34bd-4b7e-a0ba-4e33a90060cf
+  rect:
+    serializedVersion: 2
+    x: 1363
+    y: 79
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8573980034120336923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 8dcbd802-3447-4de1-8d6a-2b1e50eff54f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Where am I?
+  children:
+  - bc6d5560-a44d-4609-aa9f-f9bfd87f16d2
+  rect:
+    serializedVersion: 2
+    x: 344
+    y: 67
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8862166177593321412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 274645ec-b1b7-4daa-8574-4ccc611cca5f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'If you collect some reaper magic, you can use it to enhance your movement
+    abilities within this plane. '
+  children:
+  - 07e00cfe-532b-489a-9a2d-e5da11f3778a
+  rect:
+    serializedVersion: 2
+    x: 2471
+    y: 782
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &9044037414148938241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 5fb2c701-3dd5-43db-bd91-4602a00a555c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: That sounds concerning, what do you mean "mostly".
+  children:
+  - cfbf0ebb-5439-4d83-9fce-6bb04234f9d6
+  rect:
+    serializedVersion: 2
+    x: 1012
+    y: 74
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

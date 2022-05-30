@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-76194536775511654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: c7a342d2-6690-4f4f-af59-a101b4163356
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Looks like someone took a doorway without looking.
+  children:
+  - 9b7392cf-7d40-4dc4-8e6a-d5858d20e750
+  rect:
+    serializedVersion: 2
+    x: 372
+    y: 181
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68af8466fa34e304c9afe2ffa6ced5fb, type: 3}
+  m_Name: FirstReaper 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 322183813724686091}
+  - {fileID: -76194536775511654}
+  - {fileID: 2617121592866949796}
+--- !u!114 &322183813724686091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 75bf466e-3286-46de-b117-b1c6b863b106
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Greetings....
+  children:
+  - c7a342d2-6690-4f4f-af59-a101b4163356
+  rect:
+    serializedVersion: 2
+    x: 68
+    y: 185
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2617121592866949796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 9b7392cf-7d40-4dc4-8e6a-d5858d20e750
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 737
+    y: 87
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

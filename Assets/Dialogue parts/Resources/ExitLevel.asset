@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8125294518060927234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: f2d78db9-4f6c-40d3-88ad-be9704c1ae50
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 815
+    y: 89
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: CompleteLevel
+  condition:
+    and: []
+--- !u!114 &-3948814014154074526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 894f3905-810c-459f-ba6e-149edbb6f505
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Actually.......
+  children:
+  - eca331ba-6c50-4ec3-aefc-ac122369fb08
+  rect:
+    serializedVersion: 2
+    x: 462
+    y: 334
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1890340654702925256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: eca331ba-6c50-4ec3-aefc-ac122369fb08
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 801
+    y: 350
+    width: 250
+    height: 220
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68af8466fa34e304c9afe2ffa6ced5fb, type: 3}
+  m_Name: ExitLevel
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 4841214940455895632}
+  - {fileID: 2639474020136317271}
+  - {fileID: -3948814014154074526}
+  - {fileID: -8125294518060927234}
+  - {fileID: -1890340654702925256}
+--- !u!114 &2639474020136317271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: 15149267-a253-49ab-b0dc-b919e0ce2622
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes finally!
+  children:
+  - f2d78db9-4f6c-40d3-88ad-be9704c1ae50
+  rect:
+    serializedVersion: 2
+    x: 448
+    y: 84
+    width: 250
+    height: 240
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4841214940455895632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54a14d4d0168d44b8e2c952f83a9c2e, type: 3}
+  m_Name: e4a554de-26da-4867-b312-bd83fbe74ef1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Return to Heaven?
+  children:
+  - 15149267-a253-49ab-b0dc-b919e0ce2622
+  - 894f3905-810c-459f-ba6e-149edbb6f505
+  rect:
+    serializedVersion: 2
+    x: 124
+    y: 76
+    width: 250
+    height: 260
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

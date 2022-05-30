@@ -32,10 +32,11 @@ public class PlayerController : MonoBehaviour
 
 
     [SerializeField] LayerMask whatIsGround;
+    [SerializeField] ParticleSystem dust;
 
     //[SerializeField] bool masterWallJump;
     //[SerializeField] bool masterDash;
-    
+
 
 
 
@@ -53,7 +54,7 @@ public class PlayerController : MonoBehaviour
     bool canFlip;
     bool hasWallJumped;
     bool isDashing;
-    bool isInDialogue = false;
+    public bool isInDialogue = false;
 
 
     int jumpsLeft;
@@ -104,7 +105,7 @@ public class PlayerController : MonoBehaviour
     private void CheckIfWallSliding()
     {//difference !isGrounded
 
-        if (isTouchingWall && movementInputDirection == facingDirection && rb.velocity.y < 0)
+        if (isTouchingWall && movementInputDirection == facingDirection && rb.velocity.y < 0 && playerData.wallJumpMaster)
         {
             isWallSliding = true;
         }
@@ -120,7 +121,7 @@ public class PlayerController : MonoBehaviour
     void CheckSurroundings()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-        
+
 
         isTouchingWall = Physics2D.Raycast(wallCheck.position, transform.right, wallCheckDistance, whatIsGround);
 
@@ -167,20 +168,27 @@ public class PlayerController : MonoBehaviour
     private void UpdateAnimation()
     {
         //animator.SetBool("isWalking", isWalking);
-        //animator.SetBool("isGrounded", isGrounded);
+        animator.SetBool("isGrounded", isGrounded);
         //animator.SetFloat("yVelocity", rb.velocity.y);
-        //animator.SetBool("isWallSliding", isWallSliding);
+        animator.SetBool("isWallSliding", isWallSliding);
     }
 
 
     void CheckInput()
     {
         //TODO change to new input system
-        movementInputDirection = Input.GetAxisRaw("Horizontal");
+        if (!isInDialogue )
+        {
+            movementInputDirection = Input.GetAxisRaw("Horizontal");
+        }
+        else
+        {
+            movementInputDirection = 0;
+        }
 
         if (Input.GetButtonDown("Jump") && !isInDialogue)
         {
-            if (isGrounded || (jumpsLeft > 0 && !isTouchingWall))
+            if (isGrounded || (jumpsLeft > 0 && (!isTouchingWall || !playerData.wallJumpMaster )))
             {
                 
                 Jump();
@@ -324,6 +332,7 @@ public class PlayerController : MonoBehaviour
             jumpTimer = 0;
             isAttemptingJump = false;
             checkJumpMultiplier = true;
+            CreateDust();
         }
     }
 
@@ -396,11 +405,19 @@ public class PlayerController : MonoBehaviour
             facingDirection *= -1;
             isFacingRight = !isFacingRight;
             transform.Rotate(0.0f, 180.0f, 0.0f);
+            if (isGrounded)
+            {
+                CreateDust();
+            }
+            
         }
     }
 
 
-
+    void CreateDust()
+    {
+        dust.Play();
+    }
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
